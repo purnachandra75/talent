@@ -10,7 +10,7 @@ public class DashboardController {
 	
 	@GetMapping("/homepage")
 	public String getHomePage() {
-		return "homepage.jsp";
+		return "HomePage.jsp";
 	}
 
 }
